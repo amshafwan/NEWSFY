@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_antara"
+        android:title="ANTARA"
+        android:icon="@drawable/antara"
+        />
+
+    <item
+        android:id="@+id/nav_cnbc"
+        android:title="CNBC"
+        android:icon="@drawable/cnbc"/>
+
+    <item
+        android:id="@+id/nav_cnn"
+        android:title="CNN"
+        android:icon="@drawable/cnn"/>
+</menu>

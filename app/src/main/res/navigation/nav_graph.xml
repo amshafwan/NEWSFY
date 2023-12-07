@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/antaraFragment">
+
+    <fragment
+        android:id="@+id/antaraFragment"
+        android:name="com.fahmi.fullviewpager.ui.home.AntaraFragment"
+        android:label="fragment_antara"
+        tools:layout="@layout/fragment_antara" />
+    <fragment
+        android:id="@+id/cnbcFragment"
+        android:name="com.fahmi.fullviewpager.ui.home.CnbcFragment"
+        android:label="fragment_cnbc"
+        tools:layout="@layout/fragment_cnbc" />
+    <fragment
+        android:id="@+id/cnnFragment"
+        android:name="com.fahmi.fullviewpager.ui.home.CnnFragment"
+        android:label="fragment_cnn"
+        tools:layout="@layout/fragment_cnn" />
+</navigation>
