@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/antaraFragment"
-        android:name="com.fahmi.fullviewpager.ui.home.AntaraFragment"
+        android:name="com.aone.fullviewpager.ui.home.AntaraFragment"
         android:label="fragment_antara"
         tools:layout="@layout/fragment_antara" />
     <fragment
         android:id="@+id/cnbcFragment"
-        android:name="com.fahmi.fullviewpager.ui.home.CnbcFragment"
+        android:name="com.aone.fullviewpager.ui.home.CnbcFragment"
         android:label="fragment_cnbc"
         tools:layout="@layout/fragment_cnbc" />
     <fragment
         android:id="@+id/cnnFragment"
-        android:name="com.fahmi.fullviewpager.ui.home.CnnFragment"
+        android:name="com.aone.fullviewpager.ui.home.CnnFragment"
         android:label="fragment_cnn"
         tools:layout="@layout/fragment_cnn" />
 </navigation>

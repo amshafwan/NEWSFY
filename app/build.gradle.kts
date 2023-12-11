@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.fahmi.fullviewpager"
+    namespace = "com.aone.fullviewpager"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.fahmi.fullviewpager"
+        applicationId = "com.aone.fullviewpager"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
